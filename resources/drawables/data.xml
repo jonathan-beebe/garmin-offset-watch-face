@@ -1,0 +1,6 @@
+<drawable-list id="Data" x="158" y="center" width="60" height="64" background="Gfx.COLOR_TRANSPARENT">
+	<shape type="rectangle" x="0" y="0" width="50" height="10" color="Gfx.COLOR_WHITE" />
+	<shape type="rectangle" x="0" y="18" width="53" height="10" color="Gfx.COLOR_WHITE" />
+	<shape type="rectangle" x="0" y="36" width="53" height="10" color="Gfx.COLOR_WHITE" />
+	<shape type="rectangle" x="0" y="54" width="50" height="10" color="Gfx.COLOR_WHITE" />
+</drawable-list>
