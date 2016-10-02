@@ -1,0 +1,3 @@
+<drawable-list id="DividingLine" x="0" y="0" width="dc.getWidth()" height="dc.getHeight()" background="Gfx.COLOR_TRANSPARENT">
+	<shape type="rectangle" x="dc.getWidth() * 0.6" y="0" width="1" height="dc.getHeight()" color="Gfx.COLOR_DK_GRAY" />
+</drawable-list>

@@ -21,90 +21,123 @@
 <entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/ProgressBar.mc" lineNum="35" pc="268435726" symbol="draw"/>
 <entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/ProgressBar.mc" lineNum="36" pc="268435770" symbol="draw"/>
 <entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/ProgressBar.mc" lineNum="37" pc="268435798" symbol="draw"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="9" pc="268435876" symbol="initialize"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="10" pc="268435880" symbol="initialize"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="14" pc="268435899" symbol="onLayout"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="15" pc="268435903" symbol="onLayout"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="21" pc="268435941" symbol="onShow"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="25" pc="268435946" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="27" pc="268435950" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="28" pc="268435967" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="29" pc="268435977" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="30" pc="268435987" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="31" pc="268436012" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="32" pc="268436023" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="35" pc="268436039" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="36" pc="268436071" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="41" pc="268436092" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="42" pc="268436116" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="44" pc="268436140" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="45" pc="268436178" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="47" pc="268436236" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="48" pc="268436277" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="50" pc="268436291" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="51" pc="268436332" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="53" pc="268436346" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="54" pc="268436370" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="56" pc="268436387" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="57" pc="268436411" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="59" pc="268436428" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="60" pc="268436452" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="63" pc="268436469" symbol="onUpdate"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="86" pc="268436490" symbol="onHide"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="90" pc="268436495" symbol="onExitSleep"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="94" pc="268436500" symbol="onEnterSleep"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="7" pc="268436505" symbol="initialize"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="8" pc="268436509" symbol="initialize"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="12" pc="268436530" symbol="initialize"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="15" pc="268436551" symbol="draw"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="17" pc="268436555" symbol="draw"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="18" pc="268436608" symbol="draw"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="6" pc="268436621" symbol="initialize"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="7" pc="268436625" symbol="initialize"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="11" pc="268436644" symbol="onStart"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="15" pc="268436649" symbol="onStop"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="19" pc="268436654" symbol="getInitialView"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="20" pc="268436658" symbol="getInitialView"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="24" pc="268436696" symbol="onSettingsChanged"/>
-<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="25" pc="268436700" symbol="onSettingsChanged"/>
-<entry filename="Rez" lineNum="25" pc="268436717" symbol="initialize"/>
-<entry filename="Rez" lineNum="26" pc="268436721" symbol="initialize"/>
-<entry filename="Rez" lineNum="29" pc="268436746" symbol="draw"/>
-<entry filename="Rez" lineNum="30" pc="268436750" symbol="draw"/>
-<entry filename="Rez" lineNum="31" pc="268436757" symbol="draw"/>
-<entry filename="Rez" lineNum="32" pc="268436764" symbol="draw"/>
-<entry filename="Rez" lineNum="33" pc="268436777" symbol="draw"/>
-<entry filename="Rez" lineNum="34" pc="268436790" symbol="draw"/>
-<entry filename="Rez" lineNum="37" pc="268436813" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="38" pc="268436817" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="39" pc="268436853" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="40" pc="268436906" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="42" pc="268436942" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="43" pc="268436978" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="45" pc="268437079" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="46" pc="268437115" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="48" pc="268437216" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="49" pc="268437252" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="51" pc="268437353" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="52" pc="268437389" symbol="drawComplex"/>
-<entry filename="Rez" lineNum="65" pc="268437491" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="67" pc="268437495" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="68" pc="268437519" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="69" pc="268437682" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="70" pc="268437845" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="71" pc="268438008" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="72" pc="268438165" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="75" pc="268438328" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="84" pc="268438396" symbol="progressBar"/>
-<entry filename="Rez" lineNum="86" pc="268438400" symbol="progressBar"/>
-<entry filename="Rez" lineNum="89" pc="268438502" symbol="progressBar"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="11" pc="268435876" symbol="initialize"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="12" pc="268435880" symbol="initialize"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="16" pc="268435899" symbol="onLayout"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="17" pc="268435903" symbol="onLayout"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="23" pc="268435941" symbol="onShow"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="27" pc="268435946" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="29" pc="268435950" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="30" pc="268435967" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="31" pc="268435977" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="32" pc="268435987" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="33" pc="268436012" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="34" pc="268436023" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="37" pc="268436039" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="38" pc="268436071" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="43" pc="268436092" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="44" pc="268436116" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="46" pc="268436140" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="47" pc="268436178" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="49" pc="268436236" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="50" pc="268436277" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="52" pc="268436291" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="53" pc="268436332" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="55" pc="268436346" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="56" pc="268436370" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="58" pc="268436387" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="59" pc="268436411" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="61" pc="268436428" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="62" pc="268436452" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="64" pc="268436469" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="65" pc="268436486" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="66" pc="268436517" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="70" pc="268436605" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="71" pc="268436623" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="72" pc="268436647" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="74" pc="268436661" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="75" pc="268436704" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="76" pc="268436770" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="77" pc="268436801" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="81" pc="268436889" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="82" pc="268436907" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="83" pc="268436931" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="86" pc="268436945" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="89" pc="268436965" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="90" pc="268437001" symbol="onUpdate"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="108" pc="268437016" symbol="onHide"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="112" pc="268437021" symbol="onExitSleep"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceView.mc" lineNum="116" pc="268437026" symbol="onEnterSleep"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="7" pc="268437031" symbol="initialize"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="8" pc="268437035" symbol="initialize"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="12" pc="268437056" symbol="initialize"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="15" pc="268437077" symbol="draw"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="17" pc="268437081" symbol="draw"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceBackground.mc" lineNum="18" pc="268437134" symbol="draw"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="6" pc="268437147" symbol="initialize"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="7" pc="268437151" symbol="initialize"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="11" pc="268437170" symbol="onStart"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="15" pc="268437175" symbol="onStop"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="19" pc="268437180" symbol="getInitialView"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="20" pc="268437184" symbol="getInitialView"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="24" pc="268437222" symbol="onSettingsChanged"/>
+<entry filename="/Users/stkw/Documents/workspace/Offset Watch Face/source/OffsetWatchFaceApp.mc" lineNum="25" pc="268437226" symbol="onSettingsChanged"/>
+<entry filename="Rez" lineNum="25" pc="268437243" symbol="initialize"/>
+<entry filename="Rez" lineNum="26" pc="268437247" symbol="initialize"/>
+<entry filename="Rez" lineNum="29" pc="268437272" symbol="draw"/>
+<entry filename="Rez" lineNum="30" pc="268437276" symbol="draw"/>
+<entry filename="Rez" lineNum="31" pc="268437283" symbol="draw"/>
+<entry filename="Rez" lineNum="32" pc="268437290" symbol="draw"/>
+<entry filename="Rez" lineNum="33" pc="268437303" symbol="draw"/>
+<entry filename="Rez" lineNum="34" pc="268437316" symbol="draw"/>
+<entry filename="Rez" lineNum="37" pc="268437339" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="38" pc="268437343" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="39" pc="268437379" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="40" pc="268437432" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="42" pc="268437468" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="43" pc="268437504" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="45" pc="268437605" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="46" pc="268437641" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="48" pc="268437742" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="49" pc="268437778" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="51" pc="268437879" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="52" pc="268437915" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="63" pc="268438017" symbol="initialize"/>
+<entry filename="Rez" lineNum="64" pc="268438021" symbol="initialize"/>
+<entry filename="Rez" lineNum="67" pc="268438046" symbol="draw"/>
+<entry filename="Rez" lineNum="68" pc="268438050" symbol="draw"/>
+<entry filename="Rez" lineNum="69" pc="268438057" symbol="draw"/>
+<entry filename="Rez" lineNum="70" pc="268438064" symbol="draw"/>
+<entry filename="Rez" lineNum="71" pc="268438077" symbol="draw"/>
+<entry filename="Rez" lineNum="72" pc="268438090" symbol="draw"/>
+<entry filename="Rez" lineNum="75" pc="268438113" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="76" pc="268438117" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="77" pc="268438153" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="78" pc="268438203" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="80" pc="268438239" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="81" pc="268438275" symbol="drawComplex"/>
+<entry filename="Rez" lineNum="94" pc="268438380" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="96" pc="268438384" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="97" pc="268438408" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="98" pc="268438577" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="99" pc="268438746" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="100" pc="268438909" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="101" pc="268439072" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="102" pc="268439235" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="103" pc="268439398" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="104" pc="268439561" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="105" pc="268439724" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="106" pc="268439887" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="107" pc="268440050" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="108" pc="268440213" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="111" pc="268440376" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
 <entry field="true" id="21" symbol="ColorBlue"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
-<entry id="19" method="true" symbol="progressBar"/>
+<entry id="8388645" symbol="Time"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="12" symbol="percentage"/>
 <entry field="true" id="28" symbol="ColorWhite"/>
@@ -116,7 +149,9 @@
 <entry field="true" id="27" symbol="ColorBlack"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="18" method="true" symbol="drawComplex"/>
+<entry id="19" method="true" symbol="drawComplex"/>
+<entry id="8388924" symbol="Gregorian"/>
+<entry id="18" object="true" symbol="DividingLine"/>
 <entry field="true" id="22" symbol="ColorRed"/>
 <entry field="true" id="23" symbol="ForegroundColorTitle"/>
 <entry id="8388702" method="true" symbol="initialize"/>
@@ -144,6 +179,7 @@
 <entry id="17" object="true" symbol="Data"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry field="true" id="26" symbol="MilitaryFormatTitle"/>
+<entry id="8389346" symbol="text"/>
 <entry id="8389066" symbol="width"/>
 <entry id="8389063" symbol="identifier"/>
 <entry id="9" object="true" symbol="OffsetWatchFaceView"/>
@@ -152,28 +188,47 @@
 <entry id="8388772" module="true" symbol="Fonts"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436489" name="level" stackId="9" startPc="268435950"/>
-<entry endPc="268436489" name="hourLabel" stackId="5" startPc="268435950"/>
-<entry endPc="268436489" name="clockTime" stackId="2" startPc="268435950"/>
-<entry endPc="268436489" name="minutes" stackId="4" startPc="268435950"/>
-<entry endPc="268436489" name="minuteLabel" stackId="6" startPc="268435950"/>
-<entry endPc="268436489" name="hourText" stackId="7" startPc="268435950"/>
-<entry endPc="268436489" name="level3" stackId="11" startPc="268435950"/>
-<entry endPc="268436489" name="level2" stackId="10" startPc="268435950"/>
-<entry endPc="268436489" name="hours" stackId="3" startPc="268435950"/>
-<entry endPc="268436489" name="minuteText" stackId="8" startPc="268435950"/>
-<entry endPc="268436550" name="dictionary" stackId="1" startPc="268436509"/>
-<entry endPc="268436812" name="pWidth" stackId="4" startPc="268436750"/>
-<entry endPc="268436812" name="pY" stackId="3" startPc="268436750"/>
-<entry endPc="268436812" name="pX" stackId="2" startPc="268436750"/>
-<entry endPc="268436812" name="pHeight" stackId="5" startPc="268436750"/>
-<entry endPc="268438395" name="rez_cmp_local_custom_drawable_level3" stackId="7" startPc="268437495"/>
-<entry endPc="268438395" name="rez_cmp_local_custom_drawable_U0C2NRKVRCJRPHKELNJL" stackId="2" startPc="268437495"/>
-<entry endPc="268438395" name="rez_cmp_local_custom_drawable_level2" stackId="6" startPc="268437495"/>
-<entry endPc="268438395" name="rez_cmp_local_bitmap_HourLabel" stackId="3" startPc="268437495"/>
-<entry endPc="268438395" name="rez_cmp_local_bitmap_MinuteLabel" stackId="4" startPc="268437495"/>
-<entry endPc="268438395" name="rez_cmp_local_custom_drawable_level" stackId="5" startPc="268437495"/>
-<entry endPc="268438519" name="rez_cmp_local_custom_drawable_BNHH3LCP9262C7AGSQAL" stackId="2" startPc="268438400"/>
+<entry endPc="268437015" name="level" stackId="9" startPc="268435950"/>
+<entry endPc="268437015" name="minuteLabel" stackId="6" startPc="268435950"/>
+<entry endPc="268437015" name="hourText" stackId="7" startPc="268435950"/>
+<entry endPc="268437015" name="utcString" stackId="18" startPc="268435950"/>
+<entry endPc="268437015" name="line" stackId="20" startPc="268435950"/>
+<entry endPc="268437015" name="hourLabel" stackId="5" startPc="268435950"/>
+<entry endPc="268437015" name="clockTime" stackId="2" startPc="268435950"/>
+<entry endPc="268437015" name="dateLabel" stackId="15" startPc="268435950"/>
+<entry endPc="268437015" name="uctMoment" stackId="16" startPc="268435950"/>
+<entry endPc="268437015" name="utcLabel" stackId="19" startPc="268435950"/>
+<entry endPc="268437015" name="level3" stackId="11" startPc="268435950"/>
+<entry endPc="268437015" name="level2" stackId="10" startPc="268435950"/>
+<entry endPc="268437015" name="minutes" stackId="4" startPc="268435950"/>
+<entry endPc="268437015" name="hours" stackId="3" startPc="268435950"/>
+<entry endPc="268437015" name="minuteText" stackId="8" startPc="268435950"/>
+<entry endPc="268437015" name="info" stackId="13" startPc="268435950"/>
+<entry endPc="268437015" name="utcInfo" stackId="17" startPc="268435950"/>
+<entry endPc="268437015" name="dateString" stackId="14" startPc="268435950"/>
+<entry endPc="268437015" name="moment" stackId="12" startPc="268435950"/>
+<entry endPc="268437076" name="dictionary" stackId="1" startPc="268437035"/>
+<entry endPc="268437338" name="pWidth" stackId="4" startPc="268437276"/>
+<entry endPc="268437338" name="pY" stackId="3" startPc="268437276"/>
+<entry endPc="268437338" name="pX" stackId="2" startPc="268437276"/>
+<entry endPc="268437338" name="pHeight" stackId="5" startPc="268437276"/>
+<entry endPc="268438112" name="pWidth" stackId="4" startPc="268438050"/>
+<entry endPc="268438112" name="pY" stackId="3" startPc="268438050"/>
+<entry endPc="268438112" name="pX" stackId="2" startPc="268438050"/>
+<entry endPc="268438112" name="pHeight" stackId="5" startPc="268438050"/>
+<entry endPc="268440513" name="rez_cmp_local_bitmap_LVA52BDUR7" stackId="7" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_custom_drawable_SLV3HYA0HYKPLZ020RZ7" stackId="2" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_bitmap_1P7EDCX0AI" stackId="9" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_bitmap_UTCTime" stackId="14" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_bitmap_Date" stackId="6" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_custom_drawable_level3" stackId="12" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_custom_drawable_level2" stackId="10" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_bitmap_JVKWF5ADTU" stackId="5" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_bitmap_MinuteLabel" stackId="4" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_bitmap_3GPJS6GGJD" stackId="11" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_bitmap_89DWI1DSEP" stackId="13" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_custom_drawable_level" stackId="8" startPc="268438384"/>
+<entry endPc="268440513" name="rez_cmp_local_bitmap_HourLabel" stackId="3" startPc="268438384"/>
 </localVars>
 <annotations/>
 <functions>
@@ -257,11 +312,22 @@
 <param id="pHeight"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="WatchFace" parent="Layouts">
-<param id="dc"/>
-<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+<functionEntry name="initialize" parent="DividingLine">
+<documentation/>
 </functionEntry>
-<functionEntry name="progressBar" parent="Layouts">
+<functionEntry name="draw" parent="DividingLine">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="drawComplex" parent="DividingLine">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="WatchFace" parent="Layouts">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
 </functionEntry>

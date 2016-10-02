@@ -1,29 +1,39 @@
 <layout id="WatchFace">
     <drawable class="Background" />
-    <label id="HourLabel" x="dc.getWidth() * 0.6" y="(dc.getHeight() / 2) - 110" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
-    <label id="MinuteLabel" x="dc.getWidth() * 0.6" y="(dc.getHeight() / 2) - 20" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+
+    <label id="HourLabel" x="(dc.getWidth() * 0.6) - 4" y="(dc.getHeight() / 2) - 110" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
+    <label id="MinuteLabel" x="(dc.getWidth() * 0.6) - 4" y="(dc.getHeight() / 2) - 20" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
     
+    <label text="Date" x="(dc.getWidth() * 0.6) + 8" y="(218 / 2) -75" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
+    <label id="Date" x="(dc.getWidth() * 0.6) + 8" y="(218 / 2) - 60" font="Gfx.FONT_SYSTEM_XTINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_WHITE" />
+    
+    <label text="Steps" x="(dc.getWidth() * 0.6) + 8" y="(218 / 2) -45" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
 	<drawable id="level" class="ProgressBar">
 		<param name="locX">(dc.getWidth() * 0.6) + 8</param>
-		<param name="locY">(218 / 2) - 30</param>
+		<param name="locY">(218 / 2) - 25</param>
 		<param name="width">(dc.getWidth() * 0.4) - 22</param>
 		<param name="height">10</param>
 		<param name="color">Gfx.COLOR_GREEN</param>
 	</drawable>
 	
+    <label text="Battery" x="(dc.getWidth() * 0.6) + 8" y="(218 / 2) -15" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
 	<drawable id="level2" class="ProgressBar">
 		<param name="locX">(dc.getWidth() * 0.6) + 8</param>
-		<param name="locY">(218 / 2)</param>
+		<param name="locY">(218 / 2) + 5</param>
 		<param name="width">(dc.getWidth() * 0.4) - 16</param>
 		<param name="height">10</param>
 		<param name="color">Gfx.COLOR_GREEN</param>
 	</drawable>
 	
+    <label text="Other" x="(dc.getWidth() * 0.6) + 8" y="(218 / 2) +15" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
 	<drawable id="level3" class="ProgressBar">
 		<param name="locX">(dc.getWidth() * 0.6) + 8</param>
-		<param name="locY">(218 / 2) + 30</param>
+		<param name="locY">(218 / 2) + 35</param>
 		<param name="width">(dc.getWidth() * 0.4) - 22</param>
 		<param name="height">10</param>
 		<param name="color">Gfx.COLOR_GREEN</param>
 	</drawable>
+
+    <label text="UTC Time" x="(dc.getWidth() * 0.6) + 8" y="(218 / 2) + 45" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_DK_GRAY" />
+    <label id="UTCTime" x="(dc.getWidth() * 0.6) + 8" y="(218 / 2) + 60" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_WHITE" />
 </layout>

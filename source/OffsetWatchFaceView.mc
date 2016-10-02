@@ -2,6 +2,8 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
+using Toybox.Time as Time;
+using Toybox.Time.Gregorian as Gregorian;
 using Toybox.Application as App;
 
 class OffsetWatchFaceView extends Ui.WatchFace {
@@ -59,13 +61,33 @@ class OffsetWatchFaceView extends Ui.WatchFace {
         var level3 = View.findDrawableById("level3");
         level3.setPercent(0.2);
 
+		var moment = Time.now();
+		var info = Gregorian.info(moment, Time.FORMAT_SHORT);
+		var dateString = Lang.format("$1$-$2$", [
+			info.month.format("%02d"),
+			info.day.format("%02d")
+		]);
+		Sys.println(dateString);
+		var dateLabel = View.findDrawableById("Date");
+		dateLabel.setText(dateString);
+
+		Sys.println(-Sys.getClockTime().timeZoneOffset);
+		var uctMoment = moment.add(new Time.Duration(-Sys.getClockTime().timeZoneOffset));
+		var utcInfo = Gregorian.info(uctMoment, Time.FORMAT_SHORT);
+		var utcString = Lang.format("$1$:$2$", [
+		    utcInfo.hour.format("%02d"),
+			utcInfo.min.format("%02d")
+		]);
+		Sys.println(utcString);
+		var utcLabel = View.findDrawableById("UTCTime");
+		utcLabel.setText(utcString);
+
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
        
-        /*
-		var data = new Rez.Drawables.Data();
-		data.draw( dc );
-		*/
+		// Draw the line that separates the two halves.
+		var line = new Rez.Drawables.DividingLine();
+		line.draw( dc );
 		
 		/*
 		var moveBar = new ProgressBar({
