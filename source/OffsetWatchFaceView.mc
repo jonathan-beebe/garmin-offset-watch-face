@@ -5,6 +5,7 @@ using Toybox.Lang as Lang;
 using Toybox.Time as Time;
 using Toybox.Time.Gregorian as Gregorian;
 using Toybox.Application as App;
+using Toybox.ActivityMonitor as ActivityMonitor;
 
 class OffsetWatchFaceView extends Ui.WatchFace {
 
@@ -53,13 +54,13 @@ class OffsetWatchFaceView extends Ui.WatchFace {
         minuteLabel.setText(minuteText);
         
         var level = View.findDrawableById("level");
-        level.setPercent(0.4);
+        level.setPercent(getStepsPercent());
 
         var level2 = View.findDrawableById("level2");
-        level2.setPercent(0.8);
+        level2.setPercent(getBatteryPercent());
 
         var level3 = View.findDrawableById("level3");
-        level3.setPercent(0.2);
+        level3.setPercent(getMoveBarLevel());
 
 		var moment = Time.now();
 		var info = Gregorian.info(moment, Time.FORMAT_SHORT);
@@ -100,6 +101,30 @@ class OffsetWatchFaceView extends Ui.WatchFace {
 		moveBar.setPercent(0.5);
 		moveBar.draw( dc );
 		*/
+    }
+    
+    hidden function getBatteryPercent() {
+    	var stats = Sys.getSystemStats();
+    	var battery = stats.battery;
+    	return battery / 100;
+    }
+    
+    hidden function getStepsPercent() {
+    	var info = ActivityMonitor.getInfo();
+    	var stepsGoal = info.stepGoal;
+    	var steps = info.steps;
+    	return steps / stepsGoal;
+    }
+    
+    hidden function getMoveBarLevel() {
+    	var info = ActivityMonitor.getInfo();
+    	var level = info.moveBarLevel;
+    	if (level < ActivityMonitor.MOVE_BAR_LEVEL_MIN) {
+    		return 0;
+    	}
+    	else {
+    		return level / ActivityMonitor.MOVE_BAR_LEVEL_MAX;
+    	}
     }
 
     // Called when this View is removed from the screen. Save the
