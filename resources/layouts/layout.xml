@@ -1,6 +1,7 @@
 <layout id="WatchFace">
     <drawable class="Background" />
 
+    <label id="PeriodLabel" x="8" y="center" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_WHITE" />
     <label id="HourLabel" x="(dc.getWidth() * 0.6) - 4" y="(dc.getHeight() / 2) - 110" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
     <label id="MinuteLabel" x="(dc.getWidth() * 0.6) - 4" y="(dc.getHeight() / 2) - 20" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_WHITE" />
     

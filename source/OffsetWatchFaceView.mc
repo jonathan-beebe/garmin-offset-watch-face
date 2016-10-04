@@ -7,6 +7,40 @@ using Toybox.Time.Gregorian as Gregorian;
 using Toybox.Application as App;
 using Toybox.ActivityMonitor as ActivityMonitor;
 
+const PERIOD_AM = "am";
+const PERIOD_PM = "pm";
+
+class ClockValue {
+	var hour;
+	var minute;
+	var period;
+	
+	function initialize(hour, minute, period) {
+		self.hour = hour;
+		self.minute = minute;
+		self.period = period;
+	}
+	
+	static function currentClock() {
+		// Get the current time and format it correctly
+        var clockTime = Sys.getClockTime();
+        var hours = clockTime.hour;
+        var period = hours <= 12 ? PERIOD_AM : PERIOD_PM;
+        var minutes = clockTime.min;
+        if (!Sys.getDeviceSettings().is24Hour) {
+            if (hours > 12) {
+                hours = hours - 12;
+            }
+        } else {
+            if (App.getApp().getProperty("UseMilitaryFormat")) {
+                hours = hours.format("%02d");
+            }
+        }
+        
+        return new ClockValue(hours, minutes, period);
+    }
+}
+
 class OffsetWatchFaceView extends Ui.WatchFace {
 
     function initialize() {
@@ -26,32 +60,21 @@ class OffsetWatchFaceView extends Ui.WatchFace {
 
     // Update the view
     function onUpdate(dc) {
-        // Get the current time and format it correctly
-        var clockTime = Sys.getClockTime();
-        var hours = clockTime.hour;
-        var minutes = clockTime.min;
-        if (!Sys.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (App.getApp().getProperty("UseMilitaryFormat")) {
-                hours = hours.format("%02d");
-            }
-        }
+    	var clockValue = ClockValue.currentClock();
         
-        // Update the view
         var hourLabel = View.findDrawableById("HourLabel");
-        var minuteLabel = View.findDrawableById("MinuteLabel");
-        
-        var hourText = Lang.format("$1$", [hours]);
-        var minuteText = Lang.format("$1$", [clockTime.min.format("%02d")]);
-
+        var hourText = Lang.format("$1$", [clockValue.hour]);
         hourLabel.setColor(App.getApp().getProperty("ForegroundColor"));
         hourLabel.setText(hourText);
 
+        var minuteLabel = View.findDrawableById("MinuteLabel");
+        var minuteText = Lang.format("$1$", [clockValue.minute.format("%02d")]);
         minuteLabel.setColor(App.getApp().getProperty("ForegroundColor"));
         minuteLabel.setText(minuteText);
+
+        var periodLabel = View.findDrawableById("PeriodLabel");
+        periodLabel.setColor(App.getApp().getProperty("ForegroundColor"));
+        periodLabel.setText(clockValue.period);
         
         var level = View.findDrawableById("level");
         level.setPercent(getStepsPercent());
@@ -62,26 +85,13 @@ class OffsetWatchFaceView extends Ui.WatchFace {
         var level3 = View.findDrawableById("level3");
         level3.setPercent(getMoveBarLevel());
 
-		var moment = Time.now();
-		var info = Gregorian.info(moment, Time.FORMAT_SHORT);
-		var dateString = Lang.format("$1$-$2$", [
-			info.month.format("%02d"),
-			info.day.format("%02d")
-		]);
-		Sys.println(dateString);
-		var dateLabel = View.findDrawableById("Date");
-		dateLabel.setText(dateString);
+    	var moment = Time.now();
 
-		Sys.println(-Sys.getClockTime().timeZoneOffset);
-		var uctMoment = moment.add(new Time.Duration(-Sys.getClockTime().timeZoneOffset));
-		var utcInfo = Gregorian.info(uctMoment, Time.FORMAT_SHORT);
-		var utcString = Lang.format("$1$:$2$", [
-		    utcInfo.hour.format("%02d"),
-			utcInfo.min.format("%02d")
-		]);
-		Sys.println(utcString);
+		var dateLabel = View.findDrawableById("Date");
+		dateLabel.setText(getDateString(moment));
+
 		var utcLabel = View.findDrawableById("UTCTime");
-		utcLabel.setText(utcString);
+		utcLabel.setText(getUTCTimeString(moment));
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
@@ -101,6 +111,25 @@ class OffsetWatchFaceView extends Ui.WatchFace {
 		moveBar.setPercent(0.5);
 		moveBar.draw( dc );
 		*/
+    }
+    
+    hidden function getDateString(moment) {
+		var info = Gregorian.info(moment, Time.FORMAT_SHORT);
+		var dateString = Lang.format("$1$-$2$", [
+			info.month.format("%02d"),
+			info.day.format("%02d")
+		]);
+		return dateString;
+    }
+    
+    hidden function getUTCTimeString(moment) {
+		var uctMoment = moment.add(new Time.Duration(-Sys.getClockTime().timeZoneOffset));
+		var utcInfo = Gregorian.info(uctMoment, Time.FORMAT_SHORT);
+		var utcString = Lang.format("$1$:$2$", [
+		    utcInfo.hour.format("%02d"),
+			utcInfo.min.format("%02d")
+		]);
+		return utcString;
     }
     
     hidden function getBatteryPercent() {
